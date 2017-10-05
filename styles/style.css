@@ -1,0 +1,53 @@
+body {
+padding-top: 0px;
+
+}
+.navbar{
+	
+}
+
+nav {
+	height: 65px;
+}
+
+nav ul li {
+	 
+}
+.stripe {
+  position: relative;
+  margin-bottom: 5px;
+  }
+
+.stripe:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  height: 3px;
+  background: repeating-linear-gradient(
+  90deg,
+      #a35565,
+      #a35565 17%,
+      #928d91 17%,
+      #928d91 34%,
+      #cc8593 34%,
+      #cc8593 50%,
+      #ccc4b7 50%,
+      #ccc4b7 67%,
+      #ebccd4 67%,
+      #ebccd4 84%,
+      #ebebe9 84%,
+      #ebebe9 100%
+    );
+  background-size: 100%;
+  
+}
+
+.about {
+	
+	
+	text-align: center;
+
+}
