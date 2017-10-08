@@ -20,14 +20,14 @@
 
 <!-- Brand -->
 <a class="navbar-brand" href="#">
- <img src="images\logo.jpg" width="105" height="55" alt="">
+ <img src="images\logo.png" width="105" height="55" alt="">
 </a>
 
 <!-- Links -->
 <div class="collapse navbar-collapse justify-content-end" id="nav-content">   
 <ul class="navbar-nav">
 <li class="nav-item">
-<a class="nav-link" href="#">За Нас</a>
+<a class="nav-link" href="#about">За Нас</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="#">Производство</a>
@@ -48,7 +48,7 @@
 <div class="container slick-slider">
    <img src="images\slide1.jpg" alt="" >
    <img src="images\slide2.jpg" alt="" >
-   <img src="images\slide3.jpg" alt="" >
+   <img src="images\slide4.jpg" alt="" >
    <img src="images\slide4.jpg" alt="" >
    <img src="images\slide5.jpg" alt="" >
    <img src="images\slide6.jpg" alt="" >
@@ -59,21 +59,49 @@
 
 <div class="container">
 <hr>
-<div class="row">
 
-<div class="col-12 about">
+<div class="col-12" id="about">
 
 <p>Мебелот за седење е повеќе од парче мебел кое го надоплнува просторот во домот, мебелот за седење има голема улога при достигнување на високо ниво на удобност во животниот простор.</p>
 
 <p>Токму поради овие прични, нашата главна цел е да Ви понудиме решение кое ќе се вклопи не само во вашиот стил или вкус кога внатрешното уредување е во прашање, туку и идеално решение кое ќе придонесе за Вашетo чувство на удобност во моментите кои ги поминувате со Вашите најмили.</p>
-</div>
-
-
-
 
 </div>
 <hr>
 </div>
+
+<div class="container">
+<div class="col-12">
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+    <div class="card-block">
+	
+	<hr>
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/slide2.jpg" alt="Card image cap">
+    <div class="card-block">
+	<hr>
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+	  </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/slide3.jpg" alt="Card image cap">
+    <div class="card-block">
+	<hr>
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	  </div>
+  </div>
+</div>
+
+</div>
+<div>
 
 </body>
 </html>
