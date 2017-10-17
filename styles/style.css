@@ -45,7 +45,7 @@ nav ul li {
   
 }
 
-.about {
+#about {
 	
 	
 	text-align: center;
@@ -55,3 +55,28 @@ nav ul li {
 hr {
 	width: 90%;
 }
+
+#contact p{
+	text-align: center;
+}
+
+
+h4, h5{
+	text-align: center;
+}
+
+form {
+	padding: 20px;
+	background-color: #ebebe9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.working-time {
+	text-indent: 30px;
+}
+#sendbutton {
+	width: 100%;
+	background-color: #8b0e3a;
+	color: white;
+}
+
