@@ -1,15 +1,35 @@
+*{
+font-family: arial;
+}
+
 body {
 padding-top: 0px;
 
 }
 .navbar{
+	z-index: 10;
 	
 }
+
+
+.nav-link {
+	color: red;
+	text-transform: uppercase;
+}
+
+nav ul li:hover{
+	background-color: #cc8593;
+	border-radius: 3px;
+	border: 1px solid a35565;
+}
+
 
 nav {
 	height: 65px;
 }
-
+ .navbar-brand {
+	 margin-top: 0;
+ }
 nav ul li {
 	 
 }
@@ -69,7 +89,12 @@ form {
 	padding: 20px;
 	background-color: #ebebe9;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	height: 300px;
 	
+}
+
+.form-control {
+	margin-bottom: 5px;
 }
 .working-time {
 	text-indent: 30px;
@@ -78,5 +103,65 @@ form {
 	width: 100%;
 	background-color: #8b0e3a;
 	color: white;
+	padding: 10px;
 }
 
+#production  h5, p{
+	 text-align: center;
+}
+
+#stores {
+	background-color: #ebebe9;
+padding: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.store p, h5{
+	text-align: left;
+    
+	
+
+	
+}
+
+#map {
+height: 300px;
+
+}
+.footer-menu ul {
+	text-align: right;
+}
+
+.footer-menu ul li {
+
+list-style-type: none;
+display: inline-block;
+
+}
+
+.footer-menu ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+	border-right: 1px solid #ebccd4;
+	padding-right: 5px;
+}
+
+.footer {
+	height: 300px;
+}
+
+@media (max-width: 576px) { 
+.navbar-collapse {
+	background-color: #ebebe9;
+	padding: 10px;
+}
+ nav ul li {
+	 border-bottom: 1px solid #ebccd4;
+ }
+ 
+ form {
+	 margin-bottom: 10px;
+ }
+
+ }
