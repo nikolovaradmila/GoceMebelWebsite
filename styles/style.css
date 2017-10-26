@@ -11,7 +11,6 @@ padding-top: 0px;
 	
 }
 
-
 .nav-link {
 	color: red;
 	text-transform: uppercase;
@@ -19,19 +18,18 @@ padding-top: 0px;
 
 nav ul li:hover{
 	background-color: #cc8593;
-	border-radius: 3px;
 	border: 1px solid a35565;
 }
 
 
 nav {
-	height: 65px;
+	
 }
  .navbar-brand {
-	 margin-top: 0;
+	
  }
-nav ul li {
-	 
+nav ul  {
+	
 }
 .stripe {
   position: relative;
@@ -90,6 +88,7 @@ form {
 	background-color: #ebebe9;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 	height: 300px;
+	margin-bottom: 10px;
 	
 }
 
@@ -104,6 +103,9 @@ form {
 	background-color: #8b0e3a;
 	color: white;
 	padding: 10px;
+	cursor: pointer;
+	border-radius: 0;
+	margin-top: 10px;
 }
 
 #production  h5, p{
@@ -116,12 +118,13 @@ padding: 20px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+#stores h4 {
+	margin-bottom: 25px;
+}
+
 .store p, h5{
 	text-align: left;
     
-	
-
-	
 }
 
 #map {
@@ -160,8 +163,12 @@ display: inline-block;
 	 border-bottom: 1px solid #ebccd4;
  }
  
- form {
-	 margin-bottom: 10px;
- }
+.footer-menu {
+	font-size: 10px;
+}
+
+.store{
+	margin-bottom: 20px;
+}
 
  }
